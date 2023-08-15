@@ -9,3 +9,7 @@
   --lightBlue: #6699cc;
   --white: #ffffff;
 }
+
+body{
+  margin: 1rem;
+}
