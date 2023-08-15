@@ -1,16 +1,15 @@
-import style from './Navbar.module.scss/'
+import style from '../Navigation/Navbar.module.scss'
 
-export function NavBar(props) {
+export function NavBar() {
 
     return (
-
-        <nav>{props.navigation}
+        <nav>
             <ul>
-                <li>HJEM</li>
-                <li>KONCEPTER</li>
-                <li>UTM LOYALTY</li >
-                <li>OM</li>
-                <li>KONTAKT</li >
+                <li>Verdensmålene</li>
+                <li>Delmålene</li>
+                <li>Udfordringer</li >
+                <li>Om</li>
+                <li>Kontakt</li >
             </ul>
         </nav>
     )

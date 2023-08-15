@@ -1,17 +1,27 @@
 nav {
-    display: block;
-    background-color: #262626;
-}
-
-ul {
     display: flex;
     flex-direction: row;
-    list-style-type: none;
+    background-color: var(--black);
     justify-content: end;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
+    padding-right: 4rem;
+    font-size: 2vw;
 
-li {
-    margin: 1rem;
-    color: #ffffff;
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        text-transform: capitalize;
+
+        li {
+            margin: 1rem;
+            color: var(--white);
+            cursor: pointer;
+
+        }
+
+        li:hover {
+            color: var(--blue);
+        }
+    }
 }

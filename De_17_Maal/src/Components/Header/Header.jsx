@@ -15,9 +15,6 @@ export function Header() {
             </hgroup>
 
         </header>
-
-
-
     )
 
 
