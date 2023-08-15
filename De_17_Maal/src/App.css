@@ -13,6 +13,7 @@
 body{
   margin: 1rem;
   font-family: Oswald;
+  background-color: var(--bggrey);
 }
 
 h3 {
