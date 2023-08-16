@@ -4,6 +4,10 @@
     gap: 2%;
     grid-auto-flow: column;
 
+    h3 {
+        text-transform: capitalize;
+    }
+
 
     article {
         display: flex;

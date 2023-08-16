@@ -6,7 +6,7 @@ import { Commitments } from './Components/The Commitments/Commitments'
 import { SubGoals } from './Components/Sub-Goals/Sub_Goals'
 import { GrowthSustain } from './Components/Growth and Sustainability/Growth&Sustainability'
 import { Gallery } from './Components/Goal Gallery/Gallery'
-
+import { LeaveNoOneBehind } from './Components/Leave_no_one_behind/LeaveNoOneBehind'
 function App() {
 
 
@@ -19,6 +19,7 @@ function App() {
       <SubGoals/>
       <Gallery />
       <GrowthSustain/>
+      <LeaveNoOneBehind/>
     </>
   )
 }
