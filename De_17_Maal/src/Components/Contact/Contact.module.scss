@@ -1,0 +1,60 @@
+.contactForm {
+
+
+    form {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    input,
+    textarea {
+        height: 40px;
+        margin: 0rem 1rem 1rem 1rem;
+        border: 3px solid;
+        border-color: var(--grey);
+        // border-width: 5px;
+        resize: none;
+    }
+    
+    textarea {
+        height: 100%;        
+    }
+
+    .inputs {
+        display: flex;
+        flex-direction: column;
+        border: 50px;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        margin: 1rem 1rem;
+
+    }
+
+    .cancel {
+        width: 100%;
+        height: 40px;
+        background-color: var(--lightBlue);
+        color: var(--white);
+        opacity: 70%;
+        border: none;
+
+    }
+
+    .send {
+        width: 100%;
+        height: 40px;
+        background-color: var(--blue);
+        color: var(--white);
+        opacity: 70%;
+        border: none;
+    }
+
+}

@@ -21,10 +21,10 @@ header {
         justify-content: space-evenly;
 
         h1 {
-            text-transform: capitalize;
+            text-transform: uppercase;
             margin: 0;
             color: var(--white);
-            font-size: 10vw;
+            font-size: 8vw;
             text-align: justify;
         }
 
@@ -32,8 +32,7 @@ header {
             color: var(--lightBlue);
             font-weight: lighter;
             margin: 0;
-            font-size: 6.5vw;
-            text-align:justify;
+            font-size: 6vw;
         }
 
     }

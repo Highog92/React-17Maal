@@ -7,6 +7,8 @@ import { SubGoals } from './Components/Sub-Goals/Sub_Goals'
 import { GrowthSustain } from './Components/Growth and Sustainability/Growth&Sustainability'
 import { Gallery } from './Components/Goal Gallery/Gallery'
 import { LeaveNoOneBehind } from './Components/Leave_no_one_behind/LeaveNoOneBehind'
+import { SultenOgFattig } from './Components/Poverty_and_hunger/Poverty&Hunger'
+import { Contact } from './Components/Contact/Contact'
 function App() {
 
 
@@ -20,6 +22,8 @@ function App() {
       <Gallery />
       <GrowthSustain/>
       <LeaveNoOneBehind/>
+      <SultenOgFattig/>
+      <Contact/>
     </>
   )
 }

@@ -9,7 +9,9 @@ export function Header() {
             <img src={HeaderColorWheel} alt="Top Color Wheel" />
             <hgroup>
                 <h1>
-                    The Global Goals
+                    <span>
+                        The Global Goals
+                        </span>
                 </h1>
                 <h2>For sustainable Developement</h2>
             </hgroup>
