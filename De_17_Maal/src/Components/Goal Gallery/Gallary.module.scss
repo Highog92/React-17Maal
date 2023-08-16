@@ -1,0 +1,18 @@
+.GalleryGrid {
+
+    // display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); // oneliner til at lave et grid der "bryder" og opfører sig som flex.    
+    gap: 15px;
+    align-items: center;
+}
+
+.GalleryGrid img {
+    width: 12vw;
+    cursor: pointer;
+    filter: grayscale(1);
+}
+
+.GalleryGrid img:hover {
+    filter: grayscale(0);
+}
+
