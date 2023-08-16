@@ -27,8 +27,6 @@ export function SubGoals() {
             </article>
         </section>
 
-
-
     )
 
 
